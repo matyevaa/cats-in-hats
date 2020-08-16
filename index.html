@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">	
+		<meta charset="utf-8">
+		<title>Humans of the Pandemic</title>		
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+		
+	<body>
+
+		<div class="panel">
+			<h3 id="header">Humans of the Pandemic</h3>
+
+			<div class="nav">
+					<ul>
+						<li><a href="index.html" class="current">Home</a></li>
+						<li><a href="smartgoals.html">Smart Goals</a></li>
+						<li><a href="stories.html">Our Stories</a></li>
+						<li><a href="resources.html">Resources</a></li>
+					</ul>
+			</div>
+		</div>
+
+		<center>
+			<div class="window" style="height: 235px;">
+				<h3>Welcome</h3>
+				<div class="text" style="line-height: 30px;">
+					<p>This site is built to serve as a resource for all individuals during the COVID-19 pandemic.<br/>Here you will find information on how to protect yourself and others from the virus as well<br/>as steps you can take to maintain and improve your mental health during this time.<br/>On this site you can read and share stories of your experience while living through COVID-19.</p>
+				</div>
+			</div>
+		
+		<div class="images">
+			<ul>
+				<li>
+					<div>
+						<h3>Our Stories</h3>
+						<a href="stories.html">
+							<img src="icons-01.png" id="img1">
+						</a>
+						<p>Select the icon above to read</p>
+						<p>and share personal stories</p>
+					</div>
+				</li>
+
+				<li>
+					<div>
+						<h3>Resources</h3>
+						<a href="resources.html">
+							<img src="icons-02.png" id="img2">
+						</a>
+						<p>Select the icon above to learn</p>
+						<p>more about how to keep yourself</p>
+						<p>and others healthy</p>
+					</div>
+				</li>
+
+				<li>
+					<div style="margin-right: 50px;">	
+						<h3>Words of Encouragement</h3>
+						<img src="icons-03.png" id="img3">
+						<p>Click on the icon above to receive</p>
+						<p>words of encouragement</p>
+
+						<div id="myModal" class="modal">
+							<div class="modal-content">
+								<span class="close">&times;</span>
+								<p id="field"></p>
+							</div>
+						</div>
+					</div>
+
+				</li>
+			</ul>
+		</div>
+	</center>
+
+	<div class="footer">
+			<p id="footer" style="padding-top: 22px;">Made by Cats in Hats Team</p>
+			<p id="footer">Oregon State University</p>
+			<p id="footer">NMC 260 Summer 2020</p>
+	</div>
+
+	</body>
+</html>
+
+<script>
+	// Get the modal
+	var modal = document.getElementById("myModal");
+
+	// Get the img that opens the modal
+	var btn = document.getElementById("img3");
+
+	// Get the <span> element that closes the modal
+	var span = document.getElementsByClassName("close")[0];
+
+	// When the user clicks the button, open the modal 
+	btn.onclick = function() {
+	  modal.style.display = "block";
+	}
+
+	// When the user clicks on <span> (x), close the modal
+	span.onclick = function() {
+	  modal.style.display = "none";
+	}
+
+	// When the user clicks anywhere outside of the modal, close it
+	window.onclick = function(event) {
+	  if (event.target == modal) {
+	    modal.style.display = "none";
+	  }
+	}
+
+	var quotes = [
+	    	"'Worry is like a rocking chair: It gives you something to do but never gets you anywhere' - Erma Bombeck",
+			"'Nothing in life is to be feared, it is only to be understood. Now is the time to understand more, so that we may fear les' - Marie Curie",
+			"'Don't worry 'bout a thing, cause every little thing's gonna be alright' - Bob Marley",
+			"'I like to think of life as an adventure, like a roller coaster. It helps with the ups and downs' - Eddie Izzard",
+			"'Often when you think you're at the end of something, you're at the beginning of something else' - Fred Rodgers",
+			"'Better to be busy than to be busy worrying' - Angela Lansbury",
+			"'Life isn't about waiting for the storm to pass. It's about learning how to dance in the rain' - Vivian Greene",
+			"'Let everyone sweep in front of his own door, and the whole world will be clean' - Johann Wolfgang von Goethe",
+			"'That which does not kill us, makes us stronger' - Friedrich Nietzsche",
+			"'Life will give you whatever experience is most helpful for the evolution of your consciousness' - Eckhart Tolle",
+			"'I shall pass this way but once; any good that I can do or kindness I can show to any human being; let me do it now' - Etienne de Grellet",
+			"Please give me a smile :)",
+			"'I think it’s very healthy to spend time alone. You need to know how to be alone and not be defined by another person.' – Oscar Wilde",
+			"'Without great solitude, no serious work is possible.' – Pablo Picasso",
+			"'You cannot be lonely if you like the person you’re alone with.' – Wayne Dyer",
+			"'Don't think of introversion as something that needs to be cured... Spend your free time the way you like, not the way you think you're supposed to.' — Susan Cain",
+			"'We’re born alone, we live alone, we die alone. Only through our love and friendship can we create the illusion for the moment that we’re not alone.'– Orson Welles",
+			"'The ingredients of health and long life are great temperance, open-air, easy labor, and little care.” — Philip Sydney",
+			"'To lose patience is to lose the battle.” — Mahatma Gandhi",
+			"'One moment of patience may ward off great disaster. One moment of impatience may ruin a whole life.' — Chinese Proverb",
+			"'You are braver than you believe, stronger than you seem, smarter than you think, and loved more than you'll ever know.' — A.A. Milne",
+			"'If plan A doesn't work, the alphabet has 25 more letters — 204 if you're in Japan.' — Claire Cook",
+			"'If you don't like something, change it. If you can't change it, change your attitude.' — Maya Angelou",
+			"'Nothing in life is to be feared; it is only to be understood. Now is the time to understand more, so that we may fear less.' — Marie Curie",
+			"'Be thankful for what you have; you’ll end up having more. If you concentrate on what you don’t have, you will never, ever have enough.' — Oprah Winfrey",
+			"'Life comes with many challenges. The ones that should not scare us are the ones we can take on and take control of.' — Angelina Jolie",
+			"'No matter what happens in life, be good to people. Being good to people is a wonderful legacy to leave behind.' — Taylor Swift"
+	];
+
+	document.getElementById("img3").addEventListener("click", randomQuote);
+
+	function randomQuote() {
+		    var q = quotes[ Math.floor( Math.random() * quotes.length ) ];
+		    document.getElementById("field").innerHTML = q;     
+	}
+
+</script>

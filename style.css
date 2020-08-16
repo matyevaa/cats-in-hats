@@ -1,0 +1,311 @@
+* {box-sizing:border-box}
+
+body {
+	background-color: white;
+}
+
+#header {
+	color: black;
+	float: left;
+	font-size: 34px;
+	margin-top: 30px;
+}
+
+.nav {
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+}
+
+.nav ul {
+	list-style-type: none;
+	display: inline-block;
+}
+
+.nav li {
+	display: inline;
+}
+
+.nav a {
+	text-decoration: none;
+	color: #1affff;
+    display: inline-block;
+    font-size: 30px;
+    padding: 16px 24px;
+}
+
+.nav a:hover {
+	color: #00cccc;
+	background-color: #ddd;
+}
+
+.current {
+	background-color: #009999;
+}
+
+.panel {
+	margin-left: 90px;
+}
+
+.window {
+	background-color: #1affff;
+	height: 227px;
+	width: 1160px;
+	padding-top: 1px;
+	border-style: ridge;
+}
+
+.text {
+	text-align: center;
+	line-height: 30px;
+}
+
+.text2 {
+	color: #333333;
+}
+
+p {
+	font-family: Geneva;
+	font-size: 20px;
+}
+
+h3 {
+	font-size: 25px;
+	margin-bottom: -2px;
+}
+
+.images {
+	margin-top: -50px;
+}
+
+.images ul {
+	list-style-type: none;
+}
+
+.images li {
+	display: inline-block;
+	padding: 40px;
+	vertical-align: text-top;
+}
+
+.images h3 {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#img1 {
+	height: 200px; 
+	width: 200px;
+	cursor: pointer;
+}
+
+#img2 {
+	height: 200px; 
+	width: 200px;
+	cursor: pointer;
+}
+
+#img3 {
+	height: 200px; 
+	width: 200px;
+	cursor: pointer;
+}
+
+#img4 {
+	height: 400px; 
+	width: 420px;
+	float: right;
+	margin-right: 86px;
+	margin-bottom: 40px;
+}
+
+#img5 {
+	float: left;
+	margin-left: 95px;
+	margin-top: 30px;
+	cursor: pointer;
+	margin-bottom: 40px;
+}
+
+#img6 {
+	float: left;
+	margin-left: 95px;
+	margin-top: 30px;
+	margin-right: 20px;
+}
+
+#img7 {
+	float: right;
+	height: 450px;
+	width: 650px;
+}
+
+#img8 {
+	float: right;
+	cursor: pointer;
+	height: 180px; 
+	width: 420px;
+	margin-left: 100px;
+	margin-top: 20px;
+}
+
+#img9 {
+	float: left;
+	height: 400px; 
+	width: 400px;
+	margin-left: 88px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+#img10 {
+	height: 500px; 
+	width: 500px;
+	margin-top: 100px;
+}
+
+#smartgoals_txt {
+	float: left;
+	margin-left: 88px;
+	padding-top: 20px;
+}
+
+#smartgoals_txt p {
+	font-size: 20px;
+}
+
+#stories_txt {
+	float: right;
+	margin-right: 300px;
+	margin-top: 30px;
+}
+
+#interview_txt {
+	width: 480px;
+	float: right;
+	text-align: left;
+}
+
+#resources_txt {
+	float: right;
+	text-align: left;
+	margin-top: 50px;
+	line-height: 45px;
+}
+
+#resources_txt li {
+	font-size: 23px;
+	font-weight: bold;
+}
+
+
+#resources_txt a {
+	text-decoration: none;
+	color: #333333;
+}
+
+#resources_txt a:hover {
+ 	text-decoration: underline;
+}
+
+#facemasks_txt {
+	float: left;
+	text-align: left;
+	margin-left: 90px;
+	margin-top: 50px;
+	line-height: 45px;
+	margin-right: 50px;
+}
+
+#facemasks_txt li {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#facemasks_txt a {
+	text-decoration: none;
+	color: #333333;
+}
+
+#facemasks_txt a:hover {
+ 	text-decoration: underline;
+}
+
+#mentalhealth_txt {
+	text-align: left;
+	margin-left: 90px;
+}
+
+#mentalhealth_txt span {
+	color: #1affff;
+	font-weight: bold;
+}
+
+#mentalhealth_txt ul {
+	font-size: 20px;
+}
+
+.question {
+	font-weight: bold;
+}
+
+.italic {
+	font-style: italic;
+}
+
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover, .close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.footer {
+	position: static;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 120px;
+	background-color: #009999;
+	color: #d9d9d9;
+	text-align: center;
+	clear: both;
+}
+
+#footer {
+	font-size: 16px;
+	font-style: italic;
+	margin-top: 23px;
+	margin-bottom: -17px;
+	color: white;
+}

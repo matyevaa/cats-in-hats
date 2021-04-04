@@ -55,26 +55,26 @@ https://drive.google.com/file/d/11SxeMIHtZ2zDz4rgs5Aq7IJJwYN11NZc/view?usp=shari
 
 ### Quotes/words of encouragement for the “Words of Encouragement” button.
 
-● "The only thing we have to fear is fear itself" - Franklin Roosevelt
-● "A life lived in fear is a life half lived" - Baz Luhrmann
-● "Worry is like a rocking chair: It gives you something to do but never gets you
+* "The only thing we have to fear is fear itself" - Franklin Roosevelt
+* "A life lived in fear is a life half lived" - Baz Luhrmann
+* "Worry is like a rocking chair: It gives you something to do but never gets you
 anywhere" - Erma Bombeck
-● "Nothing in life is to be feared, it is only to be understood. Now is the time to
+* "Nothing in life is to be feared, it is only to be understood. Now is the time to
 understand more, so that we may fear less" - Marie Curie
-● "Don't worry 'bout a thing, cause every little thing's gonna be alright" - Bob Marley
-● "I like to think of life as an adventure, like a roller coaster. It helps with the ups
+* "Don't worry 'bout a thing, cause every little thing's gonna be alright" - Bob Marley
+* "I like to think of life as an adventure, like a roller coaster. It helps with the ups
 and downs" - Eddie Izzard
-● "Often when you think you're at the end of something, you're at the beginning of
+* "Often when you think you're at the end of something, you're at the beginning of
 something else" - Fred Rodgers
-● "Better to be busy than to be busy worrying" - Angela Lansbury
-● "Life isn't about waiting for the storm to pass. It's about learning how to dance in
+* "Better to be busy than to be busy worrying" - Angela Lansbury
+* "Life isn't about waiting for the storm to pass. It's about learning how to dance in
 the rain" - Vivian Greene
-● "Let everyone sweep in front of his own door, and the whole world will be clean" -
+* "Let everyone sweep in front of his own door, and the whole world will be clean" -
 Johann Wolfgang von Goethe
-● "That which does not kill us, makes us stronger" - Friedrich Nietzsche
-● "Life will give you whatever experience is most helpful for the evolution of your
+* "That which does not kill us, makes us stronger" - Friedrich Nietzsche
+* "Life will give you whatever experience is most helpful for the evolution of your
 consciousness" - Eckhart Tolle
-● "I shall pass this way but once; any good that I can do or kindness I can show to
+* "I shall pass this way but once; any good that I can do or kindness I can show to
 any human being; let me do it now" - Etienne de Grellet
 
 
